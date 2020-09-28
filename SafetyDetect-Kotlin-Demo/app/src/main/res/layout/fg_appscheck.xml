@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/fg_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin">
+
+            <Button
+                android:id="@+id/fg_enable_appscheck"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/btn_height"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/btn_round_corner_normal"
+                android:text="@string/enable_appscheck"
+                android:textSize="@dimen/btn_text_size" />
+
+            <Button
+                android:id="@+id/fg_verify_appscheck"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/btn_height"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/btn_round_corner_normal"
+                android:text="@string/isverify_appscheck"
+                android:textSize="@dimen/btn_text_size" />
+
+            <Button
+                android:id="@+id/fg_get_malicious_apps"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/btn_height"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/btn_round_corner_normal"
+                android:text="@string/get_malicious_appslist"
+                android:textSize="@dimen/btn_text_size" />
+
+            <TextView
+                android:id="@+id/fg_appschecktextView"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/text_view_background" />
+
+            <com.huawei.hms.safetydetect.sample.CommListView
+                android:id="@+id/fg_list_app"
+                android:focusableInTouchMode="true"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
