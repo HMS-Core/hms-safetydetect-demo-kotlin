@@ -27,6 +27,7 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import com.huawei.hms.common.ApiException
+import com.huawei.hms.support.api.entity.safetydetect.SysIntegrityRequest
 import com.huawei.hms.support.api.safetydetect.SafetyDetect
 import com.huawei.hms.support.api.safetydetect.SafetyDetectStatusCodes
 import kotlinx.android.synthetic.main.fg_sysintegrity.*
@@ -72,8 +73,12 @@ class SafetyDetectSysIntegrityAPIFragment : Fragment(), View.OnClickListener {
         } catch (e: NoSuchAlgorithmException) {
             Log.e(TAG, e.message)
         }
+        val sysIntegrityRequest = SysIntegrityRequest()
+        sysIntegrityRequest.appId = APP_ID
+        sysIntegrityRequest.nonce = nonce
+        sysIntegrityRequest.alg = "PS256"
         SafetyDetect.getClient(activity)
-                .sysIntegrity(nonce, APP_ID)
+                .sysIntegrity(sysIntegrityRequest)
                 .addOnSuccessListener { response -> // Indicates communication with the service was successful.
                     // Use response.getResult() to get the result data.
                     val jwsStr = response.result
