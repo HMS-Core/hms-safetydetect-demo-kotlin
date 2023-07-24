@@ -1,6 +1,6 @@
 # HMS Safetydetect Kotlin Demo
 
-[English](https://github.com/HMS-Core/hms-safetydetect-demo-kotlin/blob/master/README_ZH.md) | 中文
+[English](https://github.com/HMS-Core/hms-safetydetect-demo-kotlin/blob/master/README.md) | 中文
 
 ## 目录
 
@@ -15,7 +15,7 @@
 3. [SafetyDetect-URLCheck-Kotlin-Demo](https://github.com/HMS-Core/hms-safetydetect-demo-kotlin/tree/master/SafetyDetect-URLCheck-Kotlin-Demo): 提供SafetyDetect URLCheck基本功能使用示例。
 4. [SafetyDetect-UserDetect-Kotlin-Demo](https://github.com/HMS-Core/hms-safetydetect-demo-kotlin/tree/master/SafetyDetect-UserDetect-Kotlin-Demo): 提供SafetyDetect UserDetect基本功能使用示例。
 5. [SafetyDetect-WifiDetect-Kotlin-Demo](https://github.com/HMS-Core/hms-safetydetect-demo-kotlin/tree/master/SafetyDetect-WifiDetect-Kotlin-Demo): 提供SafetyDetect WifiDetect基本功能使用示例。
-6. [Safetydetect-Kotlin-Demo](https://github.com/HMS-Core/hms-safetydetect-demo-kotlin/tree/master/SafetyDetect-Kotlin-Sample): 提供SafetyDetect 所有基本功能使用示例。
+6. [Safetydetect-Kotlin-Demo](https://github.com/HMS-Core/hms-safetydetect-demo-kotlin/tree/master/SafetyDetect-Kotlin-Demo): 提供SafetyDetect 所有基本功能使用示例。
 
 ## 技术支持
 

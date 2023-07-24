@@ -15,7 +15,7 @@ This project contains SafetyDetect APIs and apps developed based on the SafetyDe
 3. [SafetyDetect-URLCheck-Kotlin-Demo](https://github.com/HMS-Core/hms-safetydetect-demo-kotlin/tree/master/SafetyDetect-URLCheck-Kotlin-Demo): Provides examples of using basic functions of SafetyDetect URLCheck.
 4. [SafetyDetect-UserDetect-Kotlin-Demo](https://github.com/HMS-Core/hms-safetydetect-demo-kotlin/tree/master/SafetyDetect-UserDetect-Kotlin-Demo): Provides examples of using basic functions of SafetyDetect UserDetect.
 5. [SafetyDetect-WifiDetect-Kotlin-Demo](https://github.com/HMS-Core/hms-safetydetect-demo-kotlin/tree/master/SafetyDetect-WifiDetect-Kotlin-Demo): Provides examples of using basic functions of SafetyDetect WifiDetect.
-6. [Safetydetect-Kotlin-Demo](https://github.com/HMS-Core/hms-safetydetect-demo-kotlin/tree/master/SafetyDetect-Kotlin-Sample): Provides examples of using basic functions of SafetyDetect.
+6. [Safetydetect-Kotlin-Demo](https://github.com/HMS-Core/hms-safetydetect-demo-kotlin/tree/master/SafetyDetect-Kotlin-Demo): Provides examples of using basic functions of SafetyDetect.
 
 
 ## Precautions
